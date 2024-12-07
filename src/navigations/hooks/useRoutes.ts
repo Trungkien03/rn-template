@@ -1,14 +1,16 @@
-import index from "@app/features/MainScreens/screens/MainScreen";
+import MainScreens from "@app/features";
 import { Route } from "../types/Route.type";
 
 const useRoutes = (): Route[] => {
   const routes: Route[] = [
     {
-      name: "login",
-      component: index,
-      options: {
-        headerShown: false,
-      },
+      name: "TaskList",
+      component: MainScreens.TaskListScreen,
+      options: { headerShown: false },
+    },
+    {
+      name: "AddEditTask",
+      component: MainScreens.AddTaskScreen,
     },
   ];
 

@@ -1,5 +1,6 @@
 type RootStackParams = {
-  login: undefined;
+  TaskList: undefined;
+  AddEditTask: undefined;
 };
 
 export type { RootStackParams };

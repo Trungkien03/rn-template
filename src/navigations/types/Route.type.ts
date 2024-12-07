@@ -8,16 +8,4 @@ type Route = {
   options?: StackNavigationOptions;
 };
 
-// type DrawerRoute<ParamList> = {
-//   name: keyof ParamList;
-//   component: React.ComponentType<any>;
-//   options?: DrawerNavigationOptions;
-// };
-
-// type BottomTabRoute<ParamList> = {
-//   name: keyof ParamList;
-//   component: React.ComponentType<any>;
-//   options?: BottomTabNavigationOptions;
-// };
-
 export type { Route };

@@ -2,13 +2,25 @@ import { extendTheme, theme as nbTheme } from "native-base";
 
 const lightThemeColors = {
   ...nbTheme.colors,
+  primary: {
+    50: "#FFE5E5",
+    100: "#FFC2C2",
+    200: "#FF9999",
+    300: "#FF7070",
+    400: "#FF4747",
+    500: "#FF1F1F",
+    600: "#E61C1C",
+    700: "#CC1919",
+    800: "#B31616",
+    900: "#990F0F",
+  },
   skeleton: {
     startColor: "gray.300",
     endColor: "gray.400",
   },
   text: "#000000",
   titlePage: "#5EDFF5",
-  background: "#F7F8FC",
+  background: "#FFD233",
   backgroundIcon: "#DDE0FF",
   button: {
     active: "#4284F4",
@@ -30,6 +42,42 @@ const lightThemeColors = {
   },
   loading: {
     color: "#5EDFF5",
+  },
+  danger: {
+    50: "#FFE5E5",
+    100: "#FFC2C2",
+    200: "#FF9999",
+    300: "#FF7070",
+    400: "#FF4747",
+    500: "#FF1F1F",
+    600: "#E61C1C",
+    700: "#CC1919",
+    800: "#B31616",
+    900: "#990F0F",
+  },
+  success: {
+    50: "#E6F7E6",
+    100: "#C1EBC1",
+    200: "#99DF99",
+    300: "#70D370",
+    400: "#47C747",
+    500: "#1FBB1F",
+    600: "#1AA61A",
+    700: "#159015",
+    800: "#107A10",
+    900: "#0B640B",
+  },
+  warning: {
+    50: "#FFF7E6",
+    100: "#FFEBC2",
+    200: "#FFDF99",
+    300: "#FFD370",
+    400: "#FFC747",
+    500: "#FFBB1F", // Warning orange
+    600: "#E6A61A",
+    700: "#CC9015",
+    800: "#B37A10",
+    900: "#99640B",
   },
 };
 

@@ -4,16 +4,16 @@ import { useBreakpointValue } from "native-base";
 const useSize = (): { iconSize: string; fontSize: string } => {
   const iconSize =
     useBreakpointValue({
-      base: "sm",
-      md: "md",
-      lg: "lg",
+      base: "md",
+      md: "lg",
+      lg: "xl",
     }) || "sm";
 
   const fontSize =
     useBreakpointValue({
-      base: "sm",
-      md: "md",
-      lg: "lg",
+      base: "md",
+      md: "lg",
+      lg: "xl",
     }) || "sm";
 
   return { iconSize, fontSize };
